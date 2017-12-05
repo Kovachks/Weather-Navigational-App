@@ -1,0 +1,29 @@
+{
+  "name": "weather-navigational-app",
+  "version": "1.0.0",
+  "description": "## GeoVane",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "nodemailer": "^4.4.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kovachks/Weather-Navigational-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kovachks/Weather-Navigational-App/issues"
+  },
+  "homepage": "https://github.com/Kovachks/Weather-Navigational-App#readme"
+}
