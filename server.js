@@ -25,7 +25,7 @@ app.use(function(req, res, next) {
   });
 
 // Enable CORS
-app.use(cors(corsoptions))
+app.use(cors())
 
 // Static directory
 app.use(express.static(path.join(__dirname, "public")));
