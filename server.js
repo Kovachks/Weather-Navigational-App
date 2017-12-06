@@ -6,7 +6,7 @@ var $ = require('jquery');
 var cors = require('cors')
 var app = express();
 var PORT = process.env.PORT || 8000;
-
+var direction = require('google-maps-direction')
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

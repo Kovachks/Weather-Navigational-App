@@ -1,5 +1,4 @@
 //-----------------Global Variables------------------------
-
 var map = "";
 
 var markerArray = [];
@@ -160,7 +159,10 @@ function googleDirectionApiCall () {
 				 endCity + "," + endState + "&key=AIzaSyCI-Q45nsEkZDVBrp2I8NB2cTTqK_hhgrg";
 	$.ajax({
 		url: queryURLDirections,
-		method: "GET"
+  	method: "GET"
+  // direction({origin: startCity + ',' + startState,
+  // destination: endCity + ',' + endState
+   
 	}).done(function(response) {
 	console.log(response)
 
