@@ -104,11 +104,11 @@ function fireBaseLog() {
 
 //Logging the last 5 searches to the html div
 database.ref("Trip Data").limitToLast(5).on("child_added", function(childSnapshot) {
-    console.log("Child Snapshot: " + childSnapshot.val());
-    console.log("Start City: " + childSnapshot.val().startCity);
-    console.log("End City: " + childSnapshot.val().endCity);
-    console.log("Start State: " + childSnapshot.val().startState);
-    console.log("End State: " + childSnapshot.val().endState);
+    // console.log("Child Snapshot: " + childSnapshot.val());
+    // console.log("Start City: " + childSnapshot.val().startCity);
+    // console.log("End City: " + childSnapshot.val().endCity);
+    // console.log("Start State: " + childSnapshot.val().startState);
+    // console.log("End State: " + childSnapshot.val().endState);
     var searchHistory = $("<tr>");
     var startHistory = $("<td>");
     startHistory.addClass("startEntry");
