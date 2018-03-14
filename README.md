@@ -2,7 +2,7 @@
 
 ## GeoVane
 
-geovane-820cc.firebaseapp.com
+https://dry-sierra-88494.herokuapp.com/
 
 ## Current Issues
 
